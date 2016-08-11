@@ -2,4 +2,4 @@ config/.apm/
 config/.node-gyp/               
 config/compile-cache/           
 config/packages/                
-           
+config/blob-store/           
