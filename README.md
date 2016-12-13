@@ -8,8 +8,8 @@ This config can be used stand-alone or, alternatively, could be used in next ver
 
 ## Prerequisites
 
-You can use either the [different platform specific installers](https://github.com/atom/atom/releases/tag/v1.12.1) or the compressed binaries which can be used without "installing". Take a look at the [Linux version (_tar.gz_ file)](https://github.com/atom/atom/releases/download/v1.12.1/atom-amd64.tar.gz) or the
-[Windows version (_zip_ file)](https://github.com/atom/atom/releases/download/v1.12.1/atom-windows.zip).
+You can use either the [different platform specific installers](https://github.com/atom/atom/releases/tag/v1.12.7) or the compressed binaries which can be used without "installing". Take a look at the [Linux version (_tar.gz_ file)](https://github.com/atom/atom/releases/download/v1.12.7/atom-amd64.tar.gz) or the
+[Windows version (_zip_ file)](https://github.com/atom/atom/releases/download/v1.12.7/atom-windows.zip).
 
 
 See the file [_config/packages.lst_ for the list of included packages](https://raw.githubusercontent.com/ivanderk/oasp-atom-ide/master/config/packages.lst). If you want to add a package, install it in your own installation, run the script _backuppackages.(bat|sh)_ and commit / push the resulting file _config/packages.lst_.
@@ -26,7 +26,7 @@ After this you can install the required packages by running the command:
 
     restorepackages.(bat|sh)
 
-after which Atom will be ready to run. You can start it by running the command:
+After which Atom will be ready to run. You can start it by running the command:
 
     runatom.(bat|sh)
 
